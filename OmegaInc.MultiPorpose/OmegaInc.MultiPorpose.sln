@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmegaInc.MultiPorpose.WEB", "OmegaInc.MultiPorpose.WEB\OmegaInc.MultiPorpose.WEB.csproj", "{166EF460-24A8-4FFB-81C4-2AD3B521165C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmegaInc.MultiPorpose.WEB.Tests", "OmegaInc.MultiPorpose.WEB.Tests\OmegaInc.MultiPorpose.WEB.Tests.csproj", "{871DDD04-75E4-46B0-9D51-82932480B770}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{CB1A38FA-51D8-436A-B62D-0C2D575485EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7F7DEDC1-7B25-4562-BA45-9FDA3FECBD7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{166EF460-24A8-4FFB-81C4-2AD3B521165C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166EF460-24A8-4FFB-81C4-2AD3B521165C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166EF460-24A8-4FFB-81C4-2AD3B521165C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166EF460-24A8-4FFB-81C4-2AD3B521165C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{871DDD04-75E4-46B0-9D51-82932480B770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871DDD04-75E4-46B0-9D51-82932480B770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{871DDD04-75E4-46B0-9D51-82932480B770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{871DDD04-75E4-46B0-9D51-82932480B770}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{166EF460-24A8-4FFB-81C4-2AD3B521165C} = {CB1A38FA-51D8-436A-B62D-0C2D575485EA}
+		{871DDD04-75E4-46B0-9D51-82932480B770} = {7F7DEDC1-7B25-4562-BA45-9FDA3FECBD7F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE78817B-348F-48FC-AFB2-860D3051F682}
+	EndGlobalSection
+EndGlobal
